@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem;
+}
+
+nav span{
+    font-weight: 900;
+}
+
+section{
+    background: #F7F5FD;
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 3.5rem;
+    padding: 5rem 2rem;
+    }
+
+.introSection h1{
+  font-weight: 700;
+  font-size: 50px;
+  color: #2D2D2D;
+}
+
+.introSection p{
+    font-weight: 100;
+    padding-inline: 2rem;
+    line-height: 2rem;
+    font-size: 1rem;
+    opacity: 2;
+    color: #2d2d2d40;
+      }
+
+.introSection button{
+    background: #F8D57E;
+    border-radius: .6rem;
+    border: none;
+    padding: 1.5rem 4rem;
+        
+     }
+
+.video{
+    background: #F2FAF8;
+    padding: 2rem 1.5rem;
+    display:flex;
+
+}
+
+.brands{
+    display: flex;
+    gap: 2rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: #FFFFFF;
+}
+
+.brands img{
+    width: 15%;
+ }
+ .features {
+    background: #FFFFFF;
+ }
+ .features div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.3rem;
+    flex-wrap: wrap;
+ }
+
+
+ .features div h1{
+    font-weight: 600;
+ }
+
+ .features div p{
+    font-weight: 200;
+    padding-inline: 2rem;
+    line-height: 1.5rem;
+    font-size: 1rem;
+ }
+
+ .quote{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding:0 6rem;
+
+ }
+
+ .quote div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+    padding:0 6rem;
+    gap: 2rem;
+
+}
+
+.quote div p{
+    text-align: start;
+    line-height: 2rem;
+    padding-bottom: 2rem;
+    }
+
+.quoteText span {
+    color: #2d2d2d49;
+    font-weight: 600;
+    
+
+
+    }
+
+@media (min-width:600px) {
+    .brands{
+        display: flex;
+        gap: 2rem;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        background: #e21e1e;
+    }
+
+    section{
+        background: #F7F5FD;
+        display:flex;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 3.5rem;
+        padding: 5rem 2rem;
+        }
+    
+}
+
